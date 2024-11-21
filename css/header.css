@@ -1,0 +1,43 @@
+/* Navigation Bar CSS */
+header {
+    background-color: #45a049; /* Updated header color */
+    color: white;
+    padding: 10px 0; /* Reduced padding */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px; /* Reduced margin */
+}
+
+nav ul h1 {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: block;
+    font-size: 1.5em; /* Reduced font size */
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px; /* Reduced padding */
+    display: block;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 0.9em; /* Reduced font size */
+}
+
+nav ul li a:hover {
+    /* background-color: #02ca0c; */
+    border-radius: 5px;
+    transform: scale(1.05); /* Slightly reduced scale */
+}
